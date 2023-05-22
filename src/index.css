@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.hero-section {
+    position: relative;
+
+}
+
+.refer {
+    width: 554px;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    position: absolute;
+    bottom: 0rem;
+    /* margin-bottom: 40px; */
+
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 400;
+    color: #B9B9B9;
+    margin-bottom: 2rem;
+    line-height: 35.5px;
+}
+
+.indicator {
+    /* margin-bottom: 1rem; */
+    width: max-content;
+    margin: 0 auto .5rem auto;
+}
+
+.arrows {
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+ .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+} 
+
+.create-btn {
+    padding: 10px 15px;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #A020F0;
+    font-weight: 700;
+}
+
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10rem;
+    gap: 5rem;
+
+}
+
+h2 {
+    font-weight: 700;
+    color: #201b1b;
+}
+
+.signin-form {
+    background-color: #fff;
+    width: 40rem;
+    padding: 2rem 5rem 10rem;
+    border-radius: 20px;
+    box-shadow: 0 0 2px, rgba(0, 0, 0, 0.05);
+    height: 70%;
+    position: relative;
+
+
+}
+
+.span1 {
+    display: block;
+}
+
+.form-para {
+    color: #B9B9B9;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 30px;
+   
+
+}
+
+
+input {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 100%;
+    height: 68px;
+    border-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 17%;
+    top: 57.1%;
+
+}
+
+.password {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.span2 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+.signin-btn {
+    padding: 10px 15px;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #ecd2fc;
+    font-weight: 700;
+    color: #d59df8;
+    margin-left: 24rem;
+    width: max-content;
+
+}
